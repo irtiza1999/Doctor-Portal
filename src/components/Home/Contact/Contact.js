@@ -13,21 +13,21 @@ const Contact = () => {
             <div className='form-group'>
               <input
                 type='text'
-                className='form-control'
+                className='form-control formInside'
                 placeholder='Email Address *'
               />
             </div>
             <div className='form-group'>
               <input
                 type='text'
-                className='form-control'
+                className='form-control formInside'
                 placeholder='Subject *'
               />
             </div>
             <div className='form-group'>
               <textarea
                 name=''
-                className='form-control'
+                className='form-control formInside'
                 id=''
                 cols='30'
                 rows='10'
@@ -35,7 +35,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className='form-group text-center'>
-              <button type='button' className='btn btn-primary'>
+              <button type='button' className='btn btn-primary formInside'>
                 {' '}
                 Submit{' '}
               </button>

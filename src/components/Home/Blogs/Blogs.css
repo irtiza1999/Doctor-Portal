@@ -1,9 +1,11 @@
 .blogs .card {
   border: 0;
+  transition: all 1s ease-in-out;
 }
 .blogs .card-header {
   border: 0;
   background-color: transparent;
+  transition: 0.5s ease-in;
 }
 
 .blogs .card:hover {
@@ -15,7 +17,7 @@
   background-image: url('../../../images/quote.jpg');
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: 60%;
+  background-size: 3%;
 }
 .blogs .card:hover h6,
 .blogs .card:hover p {

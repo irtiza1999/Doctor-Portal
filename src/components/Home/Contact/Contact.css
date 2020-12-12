@@ -13,3 +13,6 @@
   opacity: 0.9;
   z-index: -1;
 }
+.formInside {
+  margin-bottom: 10px;
+}
