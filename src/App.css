@@ -1,0 +1,17 @@
+.btn-brand {
+  background-image: linear-gradient(75deg, #19d3ae, #0fcfec);
+  border-color: transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+..btn-brand:hover {
+  background-image: linear-gradient(-75deg, #19d3ae, #0fcfec);
+}
+.text-brand {
+  color: #1cc7c1 !important;
+}
+.form-group {
+  padding: 5px;
+}

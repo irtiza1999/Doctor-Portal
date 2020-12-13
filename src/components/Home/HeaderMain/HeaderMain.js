@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import chair from '../../../images/chair.png'
 const HeaderMain = () => {
   return (
@@ -14,7 +15,7 @@ const HeaderMain = () => {
           nulla. Hic aperiam voluptatum magni illo dolore accusamus reiciendis
           ducimus possimus reprehenderit!
         </p>
-        <button className='btn btn-primary'>GET APPOINTMENT</button>
+        <Link to='/appointment'><button className='btn btn-brand'>GET APPOINTMENT</button></Link>
       </div>
       <div className='col-md-6'>
         <img src={chair} alt='' className='img-fluid' />

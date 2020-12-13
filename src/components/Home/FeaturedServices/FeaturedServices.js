@@ -9,14 +9,14 @@ const FeaturedServices = () => {
             <img className='img-fluid' src={feature} alt='' />
           </div>
           <div className='col-md-7 align-self-center'>
-            <h1>Exception Dental Care, on your term</h1>
+            <h1 className='text-brand'>Exception Dental Care, on your term</h1>
             <p className='text-secondary my-5'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
               voluptate delectus deserunt, quae libero facilis, illum quaerat
               est perferendis doloremque sed ab et, corrupti aperiam. Nemo unde
               ipsum odio necessitatibus?
             </p>
-            <button className='btn btn-primary'>Learn More</button>
+            <button className='btn btn-brand'>Learn More</button>
           </div>
         </div>
       </div>

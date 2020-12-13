@@ -5,7 +5,7 @@ const Contact = () => {
     <section className='contact my-5 py-5'>
       <div className='container'>
         <div className='section-header text-center text-white mb-5'>
-          <h5 className='text-primary'>Contact</h5>
+          <h5 className='text-brand'>Contact</h5>
           <h1>Always connect with us</h1>
         </div>
         <div className='col-md-9 mx-auto'>
@@ -35,7 +35,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className='form-group text-center'>
-              <button type='button' className='btn btn-primary formInside'>
+              <button type='button' className='btn btn-brand formInside'>
                 {' '}
                 Submit{' '}
               </button>

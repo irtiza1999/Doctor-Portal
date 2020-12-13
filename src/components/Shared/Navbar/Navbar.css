@@ -1,0 +1,14 @@
+#navUl {
+  margin-left: auto !important;
+}
+.nav-link {
+  margin-right: 13px;
+}
+.nav-link {
+  color: #1cc7c1 !important;
+  font-weight: 500;
+  text-decoration: none !important;
+}
+.nav-link:hover {
+  color: rgb(4, 131, 163);
+}

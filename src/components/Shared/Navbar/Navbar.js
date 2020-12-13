@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 const NavigationBar = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light'>
+    <nav className='navbar navbar-expand-lg'>
       <div className='container-fluid'>
         <button
           className='navbar-toggler'
@@ -17,36 +18,36 @@ const NavigationBar = () => {
           <span className='navbar-toggler-icon'></span>
         </button>
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-          <ul className='navbar-nav' id='navUl'>
-            <li className='nav-item'>
-              <a className='nav-link active' aria-current='page' href='#home'>
+          <ul id='navUl' className='navbar-nav'>
+            <li className='nav-item active'>
+              <Link className='nav-link mr-5' to='/'>
                 Home
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='#about'>
-                About
-              </a>
+              <Link className='nav-link mr-5' to='/login'>
+                Login
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link text-white' href='#services'>
-                Dental Services
-              </a>
+              <Link className='nav-link mr-5' to='/dashboard'>
+                Dashboard
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link text-white' href='#reviews'>
-                Reviews
-              </a>
+              <Link className='nav-link mr-5 text-white' to='/dashboard'>
+                Admin
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link text-white' href='#blogs'>
+              <Link className='nav-link mr-5 text-white' to='#'>
                 Blogs
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link text-white' href='#contact'>
+              <Link className='nav-link mr-5 text-white' to='#'>
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
