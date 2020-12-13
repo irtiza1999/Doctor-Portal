@@ -20,10 +20,10 @@ const AppointmentFrom = ({ modalIsOpen, closeModal, appointmentOn, date }) => {
     data.service = appointmentOn
     data.date = date
     data.created = new Date()
-    fetch('http://localhost:5000/addAppointment', {
+    fetch('https://infinite-sea-01254.herokuapp.com/addAppointment', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify(data)
+      body: JSON.stringify(data),
     })
       .then((res) => res.json())
       .then((success) => {
