@@ -18,12 +18,18 @@ const Doctor = ({ doctor }) => {
           alt=''
         />
       )}
-      <h4>{doctor.name}</h4>
-      <p>
-        {' '}
-        <FontAwesomeIcon className='text-primary' icon={faPhoneAlt} />{' '}
-        +880-188-934789
-      </p>
+      {doctor.name ? <h4>{doctor.name}</h4> : <h4>Dr. Lesscort</h4>}
+      {doctor.contact ? (
+        <p>
+          <FontAwesomeIcon className='text-brand' icon={faPhoneAlt} />
+          {doctor.contact}
+        </p>
+      ) : (
+        <p>
+          <FontAwesomeIcon className='text-brand' icon={faPhoneAlt} />
+          +9988774455
+        </p>
+      )}
     </div>
   )
 }

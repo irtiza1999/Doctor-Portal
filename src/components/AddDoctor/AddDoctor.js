@@ -19,6 +19,7 @@ const AddDoctor = () => {
     formData.append('file', file)
     formData.append('name', info.name)
     formData.append('email', info.email)
+    formData.append('contact', info.contact)
 
     fetch('http://localhost:5000/addADoctor', {
       method: 'POST',
@@ -60,6 +61,16 @@ const AddDoctor = () => {
               className='form-control'
               name='name'
               placeholder='Name'
+            />
+          </div>
+          <div className='form-group'>
+            <label htmlFor='exampleInputPassword1'>Contact NO: </label>
+            <input
+              onBlur={handleBlur}
+              type='text'
+              className='form-control'
+              name='contact'
+              placeholder='Contact NO:'
             />
           </div>
           <div className='form-group'>
