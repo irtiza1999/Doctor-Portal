@@ -6,7 +6,7 @@ Doctor portal is a simple website where patients can book their appointments wit
 
 ---
 
-## **Languager & technologies used**
+## **Language & technologies used**
 * JavaScript
 * ReactJS
 * NodeJS
